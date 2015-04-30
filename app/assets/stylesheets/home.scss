@@ -1,0 +1,86 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header-icons{
+	float: right;	
+}
+
+body{ 
+	margin: 35px 0 !important;
+}
+.nav-tabs .glyphicon:not(.no-margin) { margin-right:10px; }
+.tab-pane .list-group-item:first-child {border-top-right-radius: 0px;border-top-left-radius: 0px;}
+.tab-pane .list-group-item:last-child {border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;}
+.tab-pane .list-group .checkbox { display: inline-block;margin: 0px; }
+.tab-pane .list-group input[type="checkbox"]{ margin-top: 2px; }
+.tab-pane .list-group .glyphicon { margin-right:5px; }
+.tab-pane .list-group .glyphicon:hover { color:#FFBC00; }
+a.list-group-item.read { color: #222;background-color: #F3F3F3; }
+hr { margin-top: 5px;margin-bottom: 10px; }
+.nav-pills>li>a {padding: 5px 10px;}
+
+.ad { padding: 5px;background: #F5F5F5;color: #222;font-size: 80%;border: 1px solid #E5E5E5; }
+.ad a.title {color: #15C;text-decoration: none;font-weight: bold;font-size: 110%;}
+.ad a.url {color: #093;text-decoration: none;}
+.radio label, .checkbox label{
+	margin-bottom: 14px !important;
+}
+.custom-margin{
+	margin-top: 0px !important;
+}
+.custom-margin1{
+	padding: 20px 0 !important;
+	background-color: #f1f1f1;
+}
+.custom-padding{
+	padding-bottom: 10px;
+}
+.header-icons li{
+	text-align: center;
+}
+.custom-color{
+	background-color: #F7BC00;
+}
+.left-panel{
+	background-color: #F7BC00;
+	height: 650px;
+}
+.custom-border1{
+	border-radius: 5px 5px 0 0;
+}
+.custom-border2{
+	border-radius: 0 0 5px 5px;
+}
+.icon-menu .glyphicon{
+	padding-bottom: 0px;
+}
+.header-menu li a{
+	color: white;
+}
+.color1{
+	color: white;
+}
+.color2{
+	color: black;
+}
+.second-left-panel{
+	margin-top: 50px;
+}
+.nav-stacked li a{
+	color: black;
+}
+.list-group a:nth-child(2n-1){
+	background-color: #f1f1f1;
+}
+.options-bar{
+	border-top: 1px solid #f1f1f1;
+	padding-top: 10px;
+}
+.main-panel{
+	border-radius: 0 0 5px 5px;
+	box-shadow: 5px 5px 12px #888888;
+}
+.real-menu{
+	padding-top: 15px;
+}
