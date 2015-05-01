@@ -1,6 +1,6 @@
 <!-- logo part start part -->
     <div class="header clearfix">
-        <div class="container custom-color custom-border1">
+        <div class="container-fluid custom-color">
             <div class="navbar-header">
                 <a class="nav-brand " href="#">
                     <%= image_tag "logo.png" %>
@@ -44,8 +44,8 @@
         </div>
     </div>
     <!-- logo part end part -->
-<div class="container"> 
-            <div class="row main-panel">
+<div class="container-fluid"> 
+            <div class="row">
                 <div class="col-sm-3 col-md-2 left-panel custom-border2">           
                     <ul class="nav nav-pills nav-stacked">
                         <li class=""><a href="#">Inbox(2) </a>
@@ -171,6 +171,6 @@
 <script>
     jQuery(document).ready(function(){
         var xWidth = screen.availHeight - 100;
-        //jQuery(".left-panel").css("height", xWidth);        
+        jQuery(".left-panel").css("height", xWidth);        
     });
 </script>

@@ -5,10 +5,6 @@
 .header-icons{
 	float: right;	
 }
-
-body{ 
-	margin: 35px 0 !important;
-}
 .nav-tabs .glyphicon:not(.no-margin) { margin-right:10px; }
 .tab-pane .list-group-item:first-child {border-top-right-radius: 0px;border-top-left-radius: 0px;}
 .tab-pane .list-group-item:last-child {border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;}
@@ -47,10 +43,7 @@ hr { margin-top: 5px;margin-bottom: 10px; }
 }
 .left-panel{
 	background-color: #F7BC00;
-	height: 650px;
-}
-.custom-border1{
-	border-radius: 5px 5px 0 0;
+	height: 600px;
 }
 .custom-border2{
 	border-radius: 0 0 5px 5px;
@@ -80,11 +73,7 @@ hr { margin-top: 5px;margin-bottom: 10px; }
 	border-top: 1px solid #f1f1f1;
 	padding-top: 10px;
 }
-.main-panel{
-	border-radius: 0 0 5px 5px;
-	box-shadow: 5px 5px 12px #888888;
-}
 .real-menu{
 	padding-top: 15px;
-	padding-left: 60px;
+	padding-left: 60px !important;
 }
