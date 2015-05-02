@@ -37,6 +37,7 @@ gem 'autoprefixer-rails'
 
 gem 'devise'
 gem 'rails_12factor', group: :production
+gem 'gmail', '~> 0.5.0'
 
 group :development do
   gem 'sqlite3'
