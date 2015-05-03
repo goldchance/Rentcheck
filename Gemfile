@@ -31,6 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'sqlite3'
 
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
@@ -39,7 +40,8 @@ gem 'devise'
 gem 'gmail', '~> 0.5.0'
 
 group :development do
-  gem 'sqlite3'
+  
+  #gem 'sqlite3'
 end
 group :production do
   gem 'pg'
