@@ -38,10 +38,10 @@ gem 'autoprefixer-rails'
 gem 'devise'
 gem 'gmail', '~> 0.5.0'
 
-gem 'mysql2'
+gem 'pg'
 
 group :production do
-  gem 'pg'
+  
   gem 'rails_12factor'
 end
 
