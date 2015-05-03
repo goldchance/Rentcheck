@@ -1,15 +1,16 @@
 development:
     adapter: postgresql
-    encoding: unicode
+    encoding: utf8
     database: rentcheck_developement
     pool: 5
     username: postgres
     password: postgres
     host: localhost
     port: 5432
+
 test:
     adapter: postgresql
-    encoding: unicode
+    encoding: utf8
     database: rentcheck_test
     pool: 5
     username: postgres
@@ -18,7 +19,7 @@ test:
     port: 5432
 production:
     adapter: postgresql
-    encoding: unicode
+    encoding: utf8
     database: rentcheck_production
     pool: 5
     username: postgres
