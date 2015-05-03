@@ -1,28 +1,16 @@
 development:
-    adapter: postgresql
-    encoding: utf8
-    database: rentcheck_developement
-    pool: 5
-    username: postgres
-    password: postgres
-    host: localhost
-    port: 5432
-
+  adapter: postgresql
+  database: my_database_development
+  pool: 5
+  timeout: 5000
 test:
-    adapter: postgresql
-    encoding: utf8
-    database: rentcheck_test
-    pool: 5
-    username: postgres
-    password: postgres
-    host: localhost
-    port: 5432
+  adapter: postgresql
+  database: my_database_test
+  pool: 5
+  timeout: 5000
+
 production:
-    adapter: postgresql
-    encoding: utf8
-    database: rentcheck_production
-    pool: 5
-    username: postgres
-    password: postgres
-    host: localhost
-    port: 5432
+  adapter: postgresql
+  database: my_database_production
+  pool: 5
+  timeout: 5000
